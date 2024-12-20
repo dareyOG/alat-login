@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bankist Alat</title>
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Log-in Navigation -->
+    <nav>
+      <div class="logIn__img"></div>
+      <!-- Log In container -->
+      <div class="logIn__container">
+        <div class="logIn">
+          <p class="welcome">Log in to get started</p>
+          <img src="img/alat-by-wema256x256.png" alt="logo" class="logo" />
+          <!-- Log in -->
+          <form>
+            <div class="logIn__input">
+              <input type="email" placeholder="" id="email" />
+              <label for="email">Email</label>
+            </div>
+            <div class="logIn__input">
+              <input
+                type="password"
+                minlength="6"
+                placeholder=""
+                id="password"
+              />
+              <label for="password">Password</label>
+              <div class="btn btn--show">show</div>
+            </div>
+            <!-- Button -->
+            <div class="btnBox">
+              <button type="reset" class="btn btn--reset">Reset</button>
+              <button class="btn btn--logIn">&rarr;</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <script src="script.js"></script>
+  </body>
+</html>
